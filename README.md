@@ -1,51 +1,16 @@
-﻿<style type="text/css">
+﻿# README
 
-    p {
-        padding-left: 16px;
-        display: block;
-        list-style-type: none;
-        font-family: consolas;
-        font-weight: bold; }
-
-    li { 
-        font-family: consolas;
-        font-weight: bold; }
-    
-    ol > li > p { padding-left: 0px; }
-
-    p.title { 
-        padding-left: 0px;
-        font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,sans-serif; 
-        font-weight: normal; }
-
-</style>
-
-<script type='text/javascript'>
-
-    window.onload = function() {
-      var links = document.links;
-      for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-        if (links[i].hostname != window.location.hostname) {
-          links[i].target = '_blank';
-        }
-      }
-    }
-
-</script>
-
-# README
-
-<p class="title">這不是教學，只是個單純的筆記，所以會省略大量的語法說明。</p>
+這不是教學，只是個單純的筆記，所以會省略大量的語法說明。
 
 ### Chapter 01
 
-<p class="title">主要講解一個 C 程式的主要架構。</p>
+主要講解一個 C 程式的主要架構。
 
 001\. [第一個 C 程式](https://github.com/TakeOver5/C/blob/master/demo/Chapter-01/001.HelloWorld/HelloWorld.cpp)
 
 ### Chapter 02
 
-<p class="title">示範格式化輸出入與變數的使用。</p>
+示範格式化輸出入與變數的使用。
 
 002\. [輸出範例](https://github.com/TakeOver5/C/blob/master/demo/Chapter-02/002.PrintVar/PrintVar.cpp)
 
@@ -53,7 +18,7 @@
 
 ### Chapter 03
 
-<p class="title">運算子與運算式的使用示範。</p>
+運算子與運算式的使用示範。
 
 004\. [各式運算子範例](https://github.com/TakeOver5/C/blob/master/demo/Chapter-03/004.BaseOperation/BaseOperation.cpp)
 
@@ -65,7 +30,7 @@
 
 ### Chapter 04
 
-<p class="title">流程判斷 if 與 switch。</p>
+流程判斷 if 與 switch。
 
 008\. [閏年判斷](https://github.com/TakeOver5/C/blob/master/demo/Chapter-04/008.LeapYearJudgment/LeapYearJudgment.cpp)
 
@@ -75,7 +40,7 @@
 
 ### Chapter 05
 
-<p class="title">迴圈結構 for 與 while。</p>
+迴圈結構 for 與 while。
 
 011\. [九九乘法表](https://github.com/TakeOver5/C/blob/master/demo/Chapter-05/011.NineNineTable/NineNineTable.cpp)
 
