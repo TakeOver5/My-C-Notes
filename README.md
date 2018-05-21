@@ -80,6 +80,20 @@
 
 025\.[費氏數列 (Arrays)](https://github.com/TakeOver5/C/blob/master/demo/Chapter-07/025.FibonacciSeries(Arrays)/FibonacciSeries.cpp)<sup><a href="https://www.evernote.com/shard/s504/sh/a740b69f-e466-4b29-8a3c-2ae5296ef06e/8aec7f16e77fd883d51020f579eaf191">註[1]</a></sup>
 
+### Chapter 08
+
+指標的使用。
+
+026\.[指標使用](https://github.com/TakeOver5/C/blob/master/demo/Chapter-08/026.PointerUsing/PointerUsing.cpp)
+
+027\.[指標運算](https://github.com/TakeOver5/C/blob/master/demo/Chapter-08/027.PointerOperation/PointerOperation.cpp)
+
+028\.[指標變數交換](https://github.com/TakeOver5/C/blob/master/demo/Chapter-08/028.VariableSwap/VariableSwap.cpp)
+
+029\.[函式指標](https://github.com/TakeOver5/C/blob/master/demo/Chapter-08/029.FunctionPointer/FunctionPointer.cpp)
+
+030\.[多型變數交換](https://github.com/TakeOver5/C/blob/master/demo/Chapter-08/030.MultitypeVariableSwap/MultitypeVariableSwap.cpp)<sup><a href="https://www.evernote.com/shard/s504/sh/73f2f7ea-7e29-441d-9579-a2aa839dc681/583d357b3e26e284fae8dffa8941092e">註[2]</a></sup>
+
 ### Extra ── 額外的簡單筆記。
 
 001. [第一個 C 程式](https://www.evernote.com/shard/s504/sh/9ce14898-097a-4a2c-b235-6cf428a4a0ed/88a697b232adefb2bfd315bdfdd6595e)
@@ -103,3 +117,9 @@
 010. [rand 亂數](https://www.evernote.com/shard/s504/sh/879f094c-80ff-44c0-9c0b-603e2966fd79/b53e86a04d834c5e8f76464b9437ba54)
 
 011. [陣列傳遞函式](https://www.evernote.com/shard/s504/sh/29f7cf6f-295a-4908-8f6b-481eed13313c/969453e29b9dc77392f50aa9ce7c2200)
+
+012. [指標與陣列的關係](https://www.evernote.com/shard/s504/sh/83042c9f-1cea-4df6-85e0-0ae53842785a/bcc4dacbf340abc857b36af981d72c18)
+
+013. [指標字串相關](https://www.evernote.com/shard/s504/sh/4a6b1e2d-e566-4b7f-bec4-7601b8b31f50/fa037f7ffe7f3e70fd5f48e1beca4ad8)
+
+014. [多重間接參照](https://www.evernote.com/shard/s504/sh/916afecb-3b87-496c-94d0-9a7a31a990e8/1c8d79809ddc5f1dc0c9024e8489235d)
