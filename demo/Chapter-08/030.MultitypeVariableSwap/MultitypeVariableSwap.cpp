@@ -9,28 +9,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void swap(void *, void *, int, int *, int *);
+void swap(void *, void *, int);
 
 int main(void){
     
     int a = 252117761, b = 666;
     double c = 3, d = 6;
-    printf("a = %p, b = %p\n", &a, &b);
+    swap(&a, &b, sizeof(int));
+    swap(&c, &d, sizeof(double));
+    
     printf("a = %d, b = %d\n", a, b);
-    //printf("c = %p, d = %p\n", &c, &d);
-    //printf("c = %lf, d = %lf\n", c, d);
-    swap(&a, &b, sizeof(int), &a, &b);
-    //swap(&c, &d, sizeof(double));
-    printf("a = %p, b = %p\n", &a, &b);
-    printf("a = %d, b = %d\n", a, b);
-    //printf("c = %p, d = %p\n", &c, &d);
-    //printf("c = %lf, d = %lf\n", c, d);
+    printf("c = %lf, d = %lf\n", c, d);
 
     system("pause");
     return 0;
 }
 
-void swap(void *x, void *y, int size, int *a, int *b){
+void swap(void *x, void *y, int size){
     
     int i;
     
@@ -41,16 +36,19 @@ void swap(void *x, void *y, int size, int *a, int *b){
     /* 因為指標已經被轉型為 char 型態，
        char 型態只占 1 byte，所以 i++ 時，也只會前進 1 byte */ 
     for(i = 0; i < size; i++, p++, q++){   
-    
-        printf("----- %d -----\n", i);
-        printf("a = %d, b = %d\n", *a, *b);
         
         temp = *p;
         *p = *q;
         *q = temp;
         
-        printf("temp = %d, *p = %d, *q = %d\n", temp, *p, *q);
     }
-    
-    printf("---------------\n");
 }
+
+/*  
+    ------------ 在 cmd 的輸出結果 ---------------
+  
+    a = 666, b = 252117761
+    c = 6.000000, d = 3.000000
+    
+    ----------------------------------------------  
+ */
