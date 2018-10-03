@@ -1,30 +1,30 @@
 /*
- * ®É¶¡¡G2018/10/03
- * ¥\¯à¡G
- *      ¥´¦L¦r¦ê¡C
- * ¥Øªº¡G
- *      ½m²ß¦r¦ê»P±`¼Æªº©w¸q¡C
+ * æ™‚é–“ï¼š2018/10/03
+ * åŠŸèƒ½ï¼š
+ *      æ‰“å°å­—ä¸²ã€‚
+ * ç›®çš„ï¼š
+ *      ç·´ç¿’å­—ä¸²èˆ‡å¸¸æ•¸çš„å®šç¾©ã€‚
  */
 
 #include <stdio.h>
 #include <stdlib.h>
-#define CPU "Central Processing Unit" //©w¸q¦r¦ê
-#define PI 3.14159 //©w¸q±`¼Æ
+#define CPU "Central Processing Unit" //å®šç¾©å­—ä¸²
+#define PI 3.14159 //å®šç¾©å¸¸æ•¸
 
 int main(void){
     
     printf("CPU is short for %s\n", CPU);
-    printf("£k = %f\n", PI);
+    printf("Ï€ = %f\n", PI);
     
     system("pause");
     return 0;
 }
 
 /*  
-    ------------ ¦b cmd ªº¿é¥Xµ²ªG ---------------
+    ------------ åœ¨ cmd çš„è¼¸å‡ºçµæœ ---------------
   
     CPU is short for Central Processing Unit
-    £k = 3.141590
+    Ï€ = 3.141590
     
     ----------------------------------------------  
 */
